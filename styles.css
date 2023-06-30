@@ -35,6 +35,12 @@ body {
     padding-left: 20px;
   }
 
+  .section a {
+    text-decoration: none; 
+    font-size: 13px; 
+    font-weight: bold;
+  }
+
   .contact-form {
     border: 1px solid #cccccc;
     padding: 20px;
@@ -77,11 +83,11 @@ body {
   }
 
   #imgCV {
+    flex-shrink: 0;
     width: 100%;
     height: 200px;
-    background-image: url('assets/imageCV.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
-    justify-content: center 
+    justify-content: center; 
 }
