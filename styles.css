@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  h1 {
+    color: #333333;
+    text-align: center;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .section h2 {
+    color: #666666;
+  }
+
+  .section p {
+    margin-bottom: 5px;
+  }
+  
+  .section span {
+    font-weight: bold;
+  }
+
+  .section ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  .contact-form {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-form input[type="submit"]:hover {
+    background-color: #555555;
+  }
+
+  .frame {
+    padding: 2%;
+    border-radius: 5%;
+    /* width: 375px;*/
+    width: 85%;
+    /* height: 812px;*/
+    height: 90%;
+    flex-shrink: 0;
+    background: #FFF;
+  }
+
+  #imgCV {
+    width: 100%;
+    height: 200px;
+    background-image: url('assets/imageCV.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    justify-content: center 
+}
